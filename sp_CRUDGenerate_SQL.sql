@@ -7,7 +7,7 @@ SET QUOTED_IDENTIFIER ON
 GO
 /**********************************************************************************************************************
 ** Modify :		HV.FullStackDv 
-** More Info:   https://github.com/XaqesWilper/Generate_Script_Crud_SqlServer
+** More Info:   https://github.com/HenryVilelaP/sp_CRUDGenerate_SQL/blob/main/sp_CRUDGenerate_SQL.sql
 ** Description: Used to generate the stored procedures listed below for your tables.
 **               * Create			(Inserta uno solo registro )
 **               * CreateMultiple	(Inserta multiples registros)
