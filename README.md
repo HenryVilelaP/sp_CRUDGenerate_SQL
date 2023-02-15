@@ -1,14 +1,14 @@
 Generador automatizado de Stored Procedure para CRUD para SQL basado en tablas existentes
 <article class="markdown-body entry-content container-lg" itemprop="text"><h1 dir="auto"><a id="user-content-sp_crudgen" class="anchor" aria-hidden="true" href="#sp_crudgen"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z"></path></svg></a>sp_CRUDGenerate_SQL</h1>
 <p dir="auto">sp_CRUDGenerate_SQL is a free open-source SQL Server stored procedure that generates stored procedures for you based on your tables and metadata like foreign keys and data types. The generated stored procedure code utilizes the SQL Server community best practices.</p>
-<p dir="auto">You can use sp_CRUDGen to generate 11 different stored procedures from basic your <strong>C</strong>reate, <strong>R</strong>ead, <strong>U</strong>pdate, <strong>D</strong>elete, <strong>U</strong>psert stored procedures to extremely advanced safe dynamic <strong>S</strong>earch stored procedures otherwise known as optional parameters, kitchen sink, Swiss army knife, catch-all queries.</p>
-<p dir="auto">sp_CRUDGen will auto-generate and regenerate stored procedures for you. If you want to customize one of the generated stored procedures you can remove <code>&lt;auto-generated&gt;</code> comment section and the stored procedure will not be overwritten.</p>
-<p dir="auto">Install and execute sp_CRUDGen in the user database and not master.</p>
+<p dir="auto">You can use sp_CRUDGenerate_SQL to generate 11 different stored procedures from basic your <strong>C</strong>reate, <strong>R</strong>ead, <strong>U</strong>pdate, <strong>D</strong>elete, <strong>U</strong>psert stored procedures to extremely advanced safe dynamic <strong>S</strong>earch stored procedures otherwise known as optional parameters, kitchen sink, Swiss army knife, catch-all queries.</p>
+<p dir="auto">sp_CRUDGenerate_SQL will auto-generate and regenerate stored procedures for you. If you want to customize one of the generated stored procedures you can remove <code>&lt;auto-generated&gt;</code> comment section and the stored procedure will not be overwritten.</p>
+<p dir="auto">Install and execute sp_CRUDGenerate_SQL in the user database and not master.</p>
 <p dir="auto">The runtime depends on the complexity of your table structure.</p>
 <p dir="auto">Fork the repo to change the T-SQL style (or format with a tool like Redgate SQL Prompt) and naming conventions. Remember to create a pull request if you added something cool so the rest of the community can benefit.</p>
 <p dir="auto">Table names should be PascalCase for best table alias naming.</p>
 <p dir="auto">Use FOREIGN KEY REFERENCES between tables for ReadEager and Search to recurse over related tables.</p>
-<p dir="auto">There are paramaters you can set in sp_CRUDGen to customize for your column naming convention and stored procedure generations.</p>
+<p dir="auto">There are paramaters you can set in sp_CRUDGenerate_SQL to customize for your column naming convention and stored procedure generations.</p>
 <table>
 <thead>
 <tr>
